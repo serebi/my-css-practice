@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>+ by flex</title>
+    <style type="text/css">
+    .com {
+        width: 200px;
+        height: 200px;
+        border: 1px solid #D7D7D7;
+        margin: 5px;
+        border-radius: 5px;
+        -webkit-border-radius: 5px;
+        -moz-border-radius: 5px;
+        box-shadow: 0 0 20px 10px #CBC8C8;
+        -webkit-box-shadow: 0 0 20px 10px #CBC8C8;
+        -moz-box-shadow: 0 0 20px 10px #CBC8C8;
+    }
+    
+    .wrap {
+        width: 636px;
+        height: 636px;
+        margin-left: 500px;
+        display: flex;
+        display: -webkit-flex;
+        flex-direction: column;
+        
+    }
+
+    .row {
+    	display: flex;
+    	display: -webkit-flex;
+    	justify-content: center;
+    }
+    
+    .top {
+        background-color: #4A88C9;
+    }
+    
+    .left {
+        background-color: #EA6926;
+    }
+    
+    .right {
+        background-color: #2FE4A4;
+    }
+    
+    .bottom {
+        background-color: #76777C;
+    }
+    
+    .mypic {
+        box-shadow: 0 0 20px #CAA0A0 inset;
+        -webkit-box-shadow: 0 0 20px #CAA0A0 inset;
+        -moz-box-shadow: 0 0 20px #CAA0A0 inset;
+        text-align: center;
+        line-height: 200px;
+    }
+    
+    .mypic img {
+        vertical-align: middle;
+    }
+    </style>
+</head>
+
+<body>
+    <div class="wrap">
+        <div class="row">
+            <div class="top com"></div>
+        </div>
+        <div class="row">
+            <div class="left com"></div>
+            <div class="mypic com"><img src="film_128px_1184000_easyicon.net.png" /></div>
+            <div class="right com"></div>
+        </div>
+        <div class="row">
+            <div class="bottom com"></div>
+        </div>
+    </div>
+</body>
+
+</html>
